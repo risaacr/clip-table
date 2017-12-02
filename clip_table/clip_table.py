@@ -8,7 +8,7 @@ import threading
 import pyperclip
 
 
-__all__ = ['ClipboardValidationError', 'put_clipboard', 'get_clipboard'
+__all__ = ['ClipboardValidationError', 'put_clipboard', 'get_clipboard',
            'get_table', 'put_table', 'parse_table_string']
 
 _lock = threading.Lock()
