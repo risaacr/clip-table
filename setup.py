@@ -31,7 +31,7 @@ setup(
     author="Isaac Robinson",
     author_email='isaac@rirobinson.com',
     url='https://github.com/risaacr/clip_table',
-    packages=find_packages(),
+    packages=find_packages('clip_table'),
     include_package_data=True,
     install_requires=requirements,
     license="MIT license",
