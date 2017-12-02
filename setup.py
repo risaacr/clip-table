@@ -25,7 +25,7 @@ test_requirements = [
 
 setup(
     name='clip_table',
-    version='1.5.3',
+    version='1.7.1',
     description="Helper functions for copying and pasting tables.",
     long_description=readme + '\n\n' + history,
     author="Isaac Robinson",
