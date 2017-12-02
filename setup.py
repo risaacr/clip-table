@@ -12,17 +12,15 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    # TODO: put package requirements here
+    'pyperclip'
 ]
 
 setup_requirements = [
     'pytest-runner',
-    # TODO(risaacr): put setup requirements (distutils extensions, etc.) here
 ]
 
 test_requirements = [
     'pytest',
-    # TODO: put package test requirements here
 ]
 
 setup(
@@ -33,7 +31,7 @@ setup(
     author="Isaac Robinson",
     author_email='isaac@rirobinson.com',
     url='https://github.com/risaacr/clip_table',
-    packages=find_packages(include=['clip_table']),
+    packages=find_packages(),
     include_package_data=True,
     install_requires=requirements,
     license="MIT license",
